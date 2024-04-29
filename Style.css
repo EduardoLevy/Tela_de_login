@@ -26,8 +26,7 @@ body {
     margin-bottom: 1em;
   }
   
-  input[type="email"],
-  input[type="password"] {
+  .dados {
     width: 100%;
     padding: 1em;
     margin-bottom: 1em;
@@ -35,7 +34,7 @@ body {
     border: none;
   }
   
-  button[type="submit"] {
+  button {
     display: block;
     width: 100%;
     padding: 1em;
@@ -48,7 +47,7 @@ body {
     cursor: pointer;
   }
   
-  button[type="submit"]:hover {
+  button:hover {
     background-color: #b2070d;
   }
   
